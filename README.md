@@ -72,7 +72,7 @@ Functions are saved in separate files named exactly like the function (for examp
 | Admission | `KSAU(hs, qudrat, tahsili)` | Weighted averages for KAU and KFUPM |
 | GPA | `KAU_GPA(score)` | Score to letter grade and GPA points |
 
-Reward test cases: (15,25) = 250 SR, (10,50) = 550 SR, (80,50) = 1140 SR, (100,100) = 2000 SR.
+Reward test cases: (15,25) = 250 SR, (10,50) = 550 SR, (80,50) = 1140 SR, (100,100) = 1800 SR.
 
 ## Lab 06 - Plotting
 
@@ -106,7 +106,7 @@ Counters, filling a water tank, summing until a threshold, `break` and `continue
 | 03 | Used `min` where `max` was asked | `max(M)` |
 | 03 | `-1.^(n+1)` is parsed as `-(1.^(n+1))` | `(-1).^(n+1)` |
 | 04 | Solved the system with `A / B'` | `A \ B` |
-| 04 | "Minimum over all three cities combined" returned one value per city | `min(M(1:2:end,:), [], 'all')` |
+| 04 | "Minimum over all three cities combined" returned one value per city | `min(min(M([1 3 5], :)))` |
 | 05 | Passed 130 (degrees) where radians are needed | `deg2rad(130)` |
 | 06 | Plotted `2^x` where the question asked for `e^(x^2)` | `exp(x.^2)` |
 | 06 | Plots drawn into the same figure | `figure` before each group of plots |
